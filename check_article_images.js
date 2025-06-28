@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Use project root instead of __dirname for data paths
-const PROJECT_ROOT = path.resolve(__dirname, '..');
+const PROJECT_ROOT = path.resolve(__dirname, '../..');
 const ARTICLES_DIR = path.join(PROJECT_ROOT, 'data', 'articles');
 const IMAGE_DIR = path.join(PROJECT_ROOT, 'data', 'images');
 const OUTPUT_FILE = path.join(PROJECT_ROOT, 'image_audit_report.json');
