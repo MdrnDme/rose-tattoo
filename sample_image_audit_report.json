@@ -1,0 +1,15 @@
+[
+  {
+    "file": "data/articles/fashion/sample-fashion-article.json",
+    "issues": [
+      "No image or image_gallery field"
+    ]
+  },
+  {
+    "file": "data/articles/fashion/sample-lookbook.json",
+    "issues": [
+      "Missing or empty gallery image: look1.jpg",
+      "Missing or empty gallery image: look2.jpg"
+    ]
+  }
+]
